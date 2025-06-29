@@ -1,7 +1,11 @@
 # ROCKET for Time Series Classification and Forecasting
-> Project - MVA 2024/2025  
-> **The ROCKET Algorithm: From Classification to Prediction**  
+
+> Project - MVA 2024/2025
+> 
+> **The ROCKET Algorithm: From Classification to Prediction**
+> 
 > Authors: **Lila Roig** (bibliographic research, method development, implemented the code),  **Eva Robillard** (run code, wrote report)
+> 
 > *Date: January 2025*
 
 ## Project Overview
