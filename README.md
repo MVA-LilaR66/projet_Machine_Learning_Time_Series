@@ -57,5 +57,3 @@ This project adapts ROCKET for:
   - Weekly datasets show promising results (MASE < 1)
   - Struggles with high-frequency data (hourly, daily)
   - Ridge regression performs best in terms of accuracy, though with more variance
-
-See detailed visualizations in the notebooks/ folder and the Excel summary in results/.
