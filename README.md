@@ -4,21 +4,35 @@
 > 
 > **The ROCKET Algorithm: From Classification to Prediction**
 > 
-> Authors: **Lila Roig** (bibliographic research, method development, implemented the code),  **Eva Robillard** (run code, wrote report)
-> 
 > *Date: January 2025*
+
+## Paper reference
+
+The project is based on the following papers:
+- [ROCKET: Exceptionally fast and accurate time series classification using random convolutional kernels](https://link.springer.com/article/10.1007/s10618-020-00701-z)
+- [MINIROCKET: A Very Fast (Almost) Deterministic Transform for Time Series Classification](https://arxiv.org/abs/2012.08791)
+
+Additional resources:
+Dataset loading utilities were adapted from the [Monash Time Series Forecasting Archive](https://github.com/rakshitha123/TSForecasting)
+
+## Authors
+- **Lila Roig:** bibliographic research, method development, implemented the code
+- **Eva Robillard:** run code, wrote report
+
 
 ## Project Overview
 
 This project explores the **ROCKET** algorithm, originally designed for fast and accurate **time series classification**, and extends its application to two new contexts:
-- **Multivariate time series**
-- **Time series forecasting (prediction)**
 
-> In this project, we extended the original ROCKET algorithm beyond its initial scope of univariate time series classification. First, we adapted ROCKET to handle multivariate time series, proposing a memory-efficient approach by sharing convolutional kernels across dimensions. Second, we repurposed ROCKET for time series forecasting, replacing the classifier with a regression model and introducing a robust sliding window mechanism to generate training sequences. These adaptations allow ROCKET to address more complex and practical time series tasks while preserving its computational efficiency.
+- **Multivariate support**: Adapted ROCKET to handle multivariate time series, proposing a memory-efficient approach by sharing convolutional kernels across dimensions.
+- **Forecasting capability**: Repurposed ROCKET for time series forecasting, replacing the classifier with a regression model and introducing a robust sliding window mechanism to generate training sequences.
 
-Our implementation is mostly from scratch, except for:
+
+Most components of this project were implemented from scratch, including:
+- Random kernel generation, convolution operations, and sliding window transformation, using vectorized code for speed and scalability.
+We relied on external resources for:
 - The original ROCKET implementation from [Dempster et al., 2020](https://doi.org/10.1007/s10618-020-00701-z)
-- Dataset loading functions from the Monash Time Series Forecasting Archive
+- Dataset loading functions from the [Monash Time Series Forecasting Archive](https://github.com/rakshitha123/TSForecasting)
 
 
 ## What is ROCKET?
