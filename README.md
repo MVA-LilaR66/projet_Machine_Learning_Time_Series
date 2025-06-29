@@ -6,6 +6,10 @@
 > 
 > *Date: January 2025*
 
+## Authors
+- **Lila Roig:** bibliographic research, method development, implemented the code
+- **Eva Robillard:** run code, wrote report
+
 ## Paper reference
 
 The project is based on the following papers:
@@ -14,10 +18,6 @@ The project is based on the following papers:
 
 Additional resources:
 Dataset loading utilities were adapted from the [Monash Time Series Forecasting Archive](https://github.com/rakshitha123/TSForecasting)
-
-## Authors
-- **Lila Roig:** bibliographic research, method development, implemented the code
-- **Eva Robillard:** run code, wrote report
 
 
 ## Project Overview
